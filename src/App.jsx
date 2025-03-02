@@ -40,12 +40,12 @@ function App() {
           macbook pro.
         </h3>
         <h5 className="text-xs md:text-base">Oh so pro !</h5>
-        <p className="text-center text-xs md:text-sm  w-full">
+        <p className="text-center text-xs md:text-sm w-full md:w-2/3">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi aperiam
           magnam natus ipsa.
         </p>
       </div>
-      <div className="relative top-[30%] w-full h-[50vh] sm:h-[60vh] md:h-[90vh]">
+      <div className="relative top-[30%] md:top-auto w-full h-[50vh] md:h-full">
         <Canvas camera={{ fov: 12, position: [0, -10, 220] }}>
           {/* <OrbitControls /> */}
           <Environment
