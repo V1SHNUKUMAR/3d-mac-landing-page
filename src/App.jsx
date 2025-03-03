@@ -47,7 +47,7 @@ function App() {
       </div>
       <div className="relative top-[30%] md:top-auto w-full h-[50vh] md:h-full">
         <Canvas camera={{ fov: 12, position: [0, -10, 220] }}>
-          {/* <OrbitControls /> */}
+          <OrbitControls enableZoom={false} />
           <Environment
             files={[
               "https://dl.polyhaven.org/file/ph-assets/HDRIs/exr/4k/studio_small_09_4k.exr",
